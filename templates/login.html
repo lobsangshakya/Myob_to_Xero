@@ -127,8 +127,7 @@
   <div class="form-container">
     <div class="icon">🔒</div>
     <h2>Login to your account</h2>
-    <form action="{% url 'login' %}" method="POST">
-      {% comment %} {% csrf_token %} {% endcomment %}
+    <form action="{% url 'login' %}" method="POST"
       <div class="form-group">
         <label for="username">Username</label>
         <input type="text" id="username" name="username" required>
