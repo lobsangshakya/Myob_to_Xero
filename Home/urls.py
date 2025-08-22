@@ -6,5 +6,5 @@ urlpatterns = [
     path('login/', views.login_page, name='login'),
     path('main/', views.main, name='main'),
     path('signup/', views.signup, name='signup'),
-    path('<str:conversion_type>/', views.conversion_page, name='conversion'),  # Dynamic URL
+    path('<str:conversion_type>/', views.conversion_page, name='conversion'),
 ]
