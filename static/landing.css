@@ -1,12 +1,10 @@
-/* Logo styling */
 .logo {
     height: 140px;
     width: 130px;
 }
 
-/* Body styling */
 .hero-section {
-    background-color: #f7f7f7; /* Soft background color */
+    background-color: #f7f7f7;
     padding: 5% 10%;
     height: 100vh;
     display: flex;
@@ -34,14 +32,12 @@
     margin-bottom: 30px;
 }
 
-/* Line Break */
 .linebreak hr {
     width: 50%;
     border-top: 2px solid #f27835;
     margin: 20px auto;
 }
 
-/* Button styling */
 .log button {
     font-size: 1.2rem;
     padding: 15px 40px;
@@ -63,7 +59,6 @@
     border: none;
 }
 
-/* Navbar styling */
 .navbar {
     background-color: #ffffff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
